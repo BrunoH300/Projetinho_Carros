@@ -7,9 +7,9 @@ import Luxury from "./assets/luxury.svg"
 
 export default function App(){
   return(
-  <main className=" min-h-svh bg-offwhitebg py-20 px-6">
-    <section>
-      <div className="bg-orange p-12 rounded-t-lg">
+  <main className=" min-h-svh bg-offwhitebg py-20 px-6 antialiased lg-flex">
+    <section className="lg:flex">
+    <div className="bg-orange p-12 rounded-t-lg">
     <img src={Sedans} alt="icone sedans" className="mb-7"/>
     <h2 className="font-shoulders mb-7 uppercase 4xl font-bold text-offwhitebg">Sedans</h2>
     <p className="font-lexend mb-7 text-offwhite">Escolha um sedan pelo seu preço acessível e excelente economia de combustível. Ideal para dirigir na cidade ou na sua próxima viagem.</p>
