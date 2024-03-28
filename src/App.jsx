@@ -7,7 +7,7 @@ import Luxury from "./assets/luxury.svg"
 
 export default function App(){
   return(
-  <main>
+  <main className=" min-h-svh bg-offwhitebg py-20">
     <section>
       <div className="bg-orange">
     <img src={Sedans} alt="icone sedans"/>
