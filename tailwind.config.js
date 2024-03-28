@@ -9,9 +9,9 @@ export default {
       'orange': '#e28625',
       'green': '#006971',
       'dark-green': '#004140',
-      'offwhite': 'rba(255, 255, 0.75)',
+      'offwhite': 'rgba(255, 255, 255, 0.75)',
       'white': '#fff',
-      'offwhitebg': '#f2f'
+      'offwhitebg': '#f2f2f2'
     },
     fontFamily:{
       'shoulders': '"Big shoulders displays"',
